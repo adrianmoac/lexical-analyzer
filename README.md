@@ -17,11 +17,11 @@ Execution Instructions
 
 To run the code using the "diff" method, use the following command:
 
-python ./lex/act3.1/diffutLinks/main.py ./lex/act3.1/dataset/your_source_code_name_1 ./lex/act3.1/dataset/your_source_code_name_2
+python ./diffutLinks/main.py ./dataset/your_source_code_name_1 ./dataset/your_source_code_name_2
 
 To run the code using the “suffixArray” method, use the following command:
 
-python ./lex/act3.1/suffixArray/main.py ./lex/act3.1/dataset/your_source_code_name_1 ./lex/act3.1/dataset/your_source_code_name_2
+python ./suffixArray/main.py ./dataset/your_source_code_name_1 ./dataset/your_source_code_name_2
 
 To run either of the two commands above with preprocessing, which renames non-reserved keywords to a default name, removes spaces and comments, you need to add the following flag:
 
